@@ -1,0 +1,32 @@
+.main-nav {
+    /*position*/
+    position: absolute;
+    right: 0;
+    /**/
+}
+
+.links {
+    /*position*/
+    position: relative;
+    float: right;
+    /*list*/
+    list-style: none;
+
+    .list__item {
+        /*display*/
+        display: inline-block;
+        /*structure*/
+        width: 4.5rem;
+
+
+        /*hover*/
+        &:hover {
+            opacity: .5;
+        }
+    }
+
+    .list__link {
+        /*typography*/
+        text-decoration: none;
+    }
+}
