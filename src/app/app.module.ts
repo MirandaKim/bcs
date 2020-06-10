@@ -13,6 +13,7 @@ import { ToolkitPageComponent } from './components/pages/toolkit-page/toolkit-pa
 import { AboutMePageComponent } from './components/pages/about-me-page/about-me-page.component';
 import { BannerComponent } from './components/modules/banner/banner.component';
 import { CarouselComponent } from './components/modules/carousel/carousel.component';
+import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CarouselComponent } from './components/modules/carousel/carousel.compon
     ToolkitPageComponent,
     AboutMePageComponent,
     BannerComponent,
-    CarouselComponent
+    CarouselComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
