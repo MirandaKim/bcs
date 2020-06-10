@@ -11,6 +11,8 @@ import { ProjectPageComponent } from './components/pages/project-page/project-pa
 import { ResearchPageComponent } from './components/pages/research-page/research-page.component';
 import { ToolkitPageComponent } from './components/pages/toolkit-page/toolkit-page.component';
 import { AboutMePageComponent } from './components/pages/about-me-page/about-me-page.component';
+import { BannerComponent } from './components/modules/banner/banner.component';
+import { CarouselComponent } from './components/modules/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AboutMePageComponent } from './components/pages/about-me-page/about-me-
     ProjectPageComponent,
     ResearchPageComponent,
     ToolkitPageComponent,
-    AboutMePageComponent
+    AboutMePageComponent,
+    BannerComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
