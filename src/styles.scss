@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './scss/fonts';
+@import './scss/_variables';
+@import './scss/_globals';
+
+
+@import './scss/modules/_columns';
+@import './scss/modules/_list';
+@import './scss/modules/_section';

@@ -1,4 +1,14 @@
 .banner {
+    /*display*/
+    display: block;
     /*position*/
+    z-index: 100;
     position: fixed;
+}
+
+.banner__main-nav {
+    /*position*/
+    position: absolute;
+    top: 0;
+    right: 0;
 }

@@ -1,0 +1,136 @@
+
+/****************************************************/
+/*                                                 */
+/*   Section CSS (_section.scss)                  */
+/*                                               */
+/************************************************/
+/*
+
+Global style file for sections
+  - Style to apply all elements with the class 'section'
+  - Includes modifier classes to customize a section's style
+
+  *************
+  * Contents: *
+  *************
+
+  # Section
+  # Color Scheme
+
+*/
+
+  /**************************************/
+  /*   # Section                       */
+  /************************************/
+
+.section {
+    /*position*/
+    position: relative;
+    /*spacing*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+  /**************************************/
+  /*   # Color Scheme                  */
+  /************************************/
+
+.section--cs-white {
+    background-color: $color_white;
+    color: $color_greyDark;
+}
+.section--cs-light {
+    color: $color_greyDark;
+}
+.section--cs-medium {
+    color: $color_white;
+}
+
+
+/**************
+*  > Purple   *
+**************/
+
+.colorscheme--purple {
+    
+    .section--cs-light {
+        background-color: $color_purpleLight;
+    }
+    .section--cs-medium {
+        background-color: $color_purple;
+    }
+}
+
+/************
+*  > Blue   *
+************/
+
+.colorscheme--blue {
+    
+    .section--cs-light {
+        background-color: $color_blueLight;
+    }
+    .section--cs-medium {
+        background-color: $color_blue;
+    }
+}
+
+/*************
+*  > Green   *
+*************/
+
+.colorscheme--green {
+    
+    .section--cs-light {
+        background-color: $color_greenLighter;
+    }
+    .section--cs-medium {
+        background-color: $color_green;
+    }
+}
+
+/**************
+*  > Yellow   *
+**************/
+
+.colorscheme--yellow {
+    
+    .section--cs-light {
+        background-color: $color_yellowLight;
+    }
+    .section--cs-medium {
+        background-color: $color_yellow;
+    }
+}
+
+/**************
+*  > Orange   *
+**************/
+
+.colorscheme--orange {
+    
+    .section--cs-light {
+        background-color: $color_orangeLight;
+    }
+    .section--cs-medium {
+        background-color: $color_orange;
+    }
+}
+
+/***********
+*  > Red   *
+***********/
+
+.colorscheme--red {
+    
+    .section--cs-light {
+        background-color: $color_redLight;
+    }
+    .section--cs-medium {
+        background-color: $color_red;
+    }
+}

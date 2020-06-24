@@ -1,0 +1,99 @@
+/****************************************************/
+/*                                                 */
+/*   CSS Variables (_variables.scss)              */
+/*                                               */
+/************************************************/
+/*
+
+  - Contains the variables to be used by the css.
+
+  *************
+  * Contents: *
+  *************
+
+  # Screen Sizes
+  # Site Margins
+  # Colors
+    > Color Definitions
+
+*/
+
+/**************************************/
+/*   # Screen Sizes                  */
+/************************************/
+
+$screen_tiny: 609px; /*Extra small devices (phones, 600px and down)*/
+$screen_small: 610px; /*Small devices (portrait tablets and large phones, 600px and up)*/
+$screen_medium: 700px; /*Medium devices (landscape tablets, 768px and up)*/
+$screen_large: 992px; /*Large devices (laptops/desktops, 992px and up)*/
+$screen_xl: 1200px; /* Extra large devices (large laptops and desktops, 1200px and up)*/
+
+/*The following sizes (squished, crushed, pancake) are for intended for brower windows with small height.*/
+/*SQUISHED*/
+$screen_squished_height: 550px;
+$screen_squished_width: $screen_small;
+/*CRUSHED*/
+$screen_crushed_height: 350px;
+$screen_crushed_width: $screen_small;
+/*PANCAKE*/
+$screen_pancake_height: 225px;
+$screen_pancake_width: $screen_small;
+
+
+/**************************************/
+/*   # Site Margins                  */
+/************************************/
+
+$site_margin_outer_sides: 2.5rem;
+$site_margin_outer_sides_tiny: 1em;
+$site_margin_body_sides: 5rem;
+$site_margin_body_sides_tiny: 2em;
+
+/**************************************/
+/*   # Colors                        */
+/************************************/
+
+/*************************
+*  > Color Definitions   *
+*************************/
+
+/*Grayscale*/
+$color_white: rgb(255, 255, 255);
+$color_black: rgb(0, 0, 0);
+$color_greyDark: rgb(89, 88, 91); /*80% Gray*/
+$color_greyLight: rgb(209, 211, 212); /*20% Gray*/
+
+/*Red*/
+$color_red: rgb(226, 134, 100); /*Red*/
+$color_redLight: rgb(249, 230, 219); /*10% Red*/
+
+/*Orange*/
+$color_orange: rgb(253, 191, 119); /*Orange*/
+$color_orangeLight: rgb(255, 241, 226); /*10% Orange*/
+
+/*Yellow*/
+$color_yellow: rgb(255, 215, 143); /*Yellow*/
+$color_yellowLight: rgb(255, 246, 232); /*10% Yellow*/
+
+/*Green*/
+$color_greenDark: rgb(160, 192, 141); /*Green*/
+$color_green: rgb(190, 220, 148); /*Light Green*/
+$color_greenLight: rgb(235, 240, 230); /*10% Green*/
+$color_greenLighter: rgb(241, 247, 234); /*10% Light Green*/
+
+/*Teal*/
+$color_teal: rgb(154, 195, 188); /*Teal*/
+$color_tealLight: rgb(235, 241, 239); /*10% Teal*/
+
+/*Blue*/
+$color_blue: rgb(149, 197, 225); /*Light Blue*/
+$color_blueLight: rgb(232, 241, 248); /*10% Light Blue*/
+
+/*Indigo*/
+$color_indigo: rgb(139, 146, 201); /*Indigo*/
+$color_indigoLight: rgb(230, 231, 244); /*10% Indigo*/
+
+/*Purple*/
+$color_purple: rgb(180, 140, 192); /*Purple*/
+$color_purpleLight: rgb(238, 231, 243); /*10% Purple*/
+
